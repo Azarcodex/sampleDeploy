@@ -22,4 +22,4 @@ jobs:
     - name: Build the Docker image
       run: docker build -t sampleDeploy .
     - name: Push to Dockerhub
-      run: docker push azarin21/sampleDeploy:latest
+      run: docker push azarin21/sampledeploy:latest
